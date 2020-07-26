@@ -1,0 +1,46 @@
+.container{
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX4+f6D1ppdAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=');
+}
+.navlink {
+    color : black;
+    border : 1px solid inherit;
+    margin-left : 50px;
+    font-family: 'piedra';
+    padding: 10px;
+}
+
+.navlink:hover{
+    background-color: #f45f41;
+    color : white;
+    text-decoration: none;
+}
+.active {
+    background-color: #f45f41;
+    color : white;
+}
+
+.register{
+    text-decoration: none;
+    background-color: #f45f41;
+    color : white;
+    padding: 20px;
+    margin-left: 800px;
+    border-radius: 5px;
+    font-family: 'piedra';
+    
+    
+}
+
+.register:hover{
+    text-decoration: none;
+    color : white;
+    background-color: #f47037
+}
+
+@media only screen and (max-width: 600px){
+    .register {
+        padding: 4px;
+        margin-left : 50px;
+        
+    }
+}

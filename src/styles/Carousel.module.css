@@ -1,0 +1,66 @@
+.carouselItem{
+    position: relative;
+}
+
+.carouselCaption{
+    position: absolute;
+    top : 300px;
+    border: 1px solid inherit;
+    height : 300px;
+    text-align: left;
+}
+
+.carouselCaption h3{
+    border : 1px solid inherit;
+    text-align: left;
+    background-color:  #f45f41;
+    width: 300px;
+    font-family: piedra;
+    font-size: 30px;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.carouselCaption p{
+    margin-top: -8px;
+    padding: 10px;
+    font-family: piedra;
+    border : 1px solid inherit;
+    background: black;
+    text-align: left;
+    width: 500px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+/*For SmartPhones */
+@media only screen and (max-width: 600px){
+    .carouselCaption{
+        position: absolute;
+        top : 70px;
+        border: 1px solid inherit;
+    }
+
+    .carouselCaption h3{
+        border : 1px solid inherit;
+        background-color:  #f45f41;
+        width: 200px;
+        font-family: piedra;
+        font-size: 17px;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .carouselCaption p{
+        margin-top: -8px;
+        padding: 5px;
+        font-family: piedra;
+        border : 1px solid inherit;
+        background: black;
+        text-align: left;
+        width: 300px;
+        font-size: 12px;
+    }
+}
+
+

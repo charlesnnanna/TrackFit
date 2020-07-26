@@ -1,0 +1,46 @@
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+
+}
+
+.img {
+   position: relative;
+   
+   border : 1px solid black;
+   
+}
+
+.about{
+    height: 333px;
+    width: 500px;
+}
+
+.story{
+    
+    width: 50%;
+    margin-left : 70px;
+}
+
+.story h3{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+}
+
+.story p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+/*For SmartPhones */
+@media only screen and (max-width: 600px){
+    .story {
+        width : 100%;
+        margin-left : 0px;
+        margin-top : 10px; 
+    }
+}

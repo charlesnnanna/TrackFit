@@ -1,0 +1,63 @@
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column ;
+    color : white;
+    background : rgb(26, 23, 23);
+    font-family: 'Raleway', sans-serif;
+    flex-wrap: wrap;
+}
+
+.footer h1, .footer h2,.footer h3,.footer h4,.footer h5{
+    font-family: 'Tangerine', cursive;
+}
+
+.address {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.address div{
+    margin : auto;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid inherit;
+    width : 88%;
+    padding: 20px;
+    margin : auto;
+    margin-top: 30px;
+}
+
+.newsletter div{
+    margin : auto;
+}
+
+.credits{
+    margin-top: 30px;
+   text-align: center;
+}
+
+/*For SmartPhones */
+@media only screen and (max-width: 600px){
+    .footer{
+        margin-top: 50px;
+    }
+    .newsletter {
+        padding : 20px;
+        width: 100%;
+    }
+
+    .newsletter form{
+        margin-top: 30px;
+    }
+
+    .credits{
+        padding: 10px;
+    }
+}
